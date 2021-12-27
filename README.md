@@ -1,4 +1,4 @@
-# furrychat_assignment
+# FurryChat
 
-kokoa clone final assignment!
+Kokoa clone final assignment!
 this is messenger for furry friends - cats, dogs, and all!
