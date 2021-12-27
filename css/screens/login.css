@@ -1,0 +1,71 @@
+.welcome-message {
+    text-align: center;
+    margin: 80px 0px;
+}
+
+.welcome-message h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.welcome-message p {
+    margin: 0px 80px;
+    font-size: 15px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    box-sizing : border-box;
+    width: 90%;
+    padding: 15px 20px;
+    font-size: 15px;
+    margin: 10px 0px;
+    outline: none;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    border-width: 0px 0px 1.5px 0px;
+}
+
+form input[type="text"]:hover, form input[type="text"]:active, form input[type="text"]:focus,
+form input[type="password"]:hover, form input[type="password"]:active, form input[type="password"]:focus {
+    border-color: var(--red);
+}
+
+.login input::placeholder {
+    color: var(--black);
+    opacity: 0.4;
+}
+
+form input[type="submit"] {
+    background-color: var(--black);
+    border: none;
+    color: var(--beige);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+form input[type="submit"]:hover, form input[type="submit"]:focus {
+    background-color: var(--red);
+    transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:active {
+    transform: translateY(2px);
+}
+
+form a {
+    text-decoration: underline;
+}
+
+form a:hover, form a:focus {
+    color: var(--red);
+}

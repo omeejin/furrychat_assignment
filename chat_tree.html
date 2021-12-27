@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats</title>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__row"><i class="fas fa-paw"></i><span>PawsOn</span><i class="fas fa-wifi"></i></div>
+        <div class="status-bar__row"><span>07:57</span></div>
+        <div class="status-bar__row"><span>76%</span><i class="fas fa-battery-three-quarters"></i></div>
+    </div>
+
+    <header class="alt-header">
+        <div class="header__title"><a href="chats.html"><i class="fas fa-chevron-left"></i></a></div>
+        <div class="header__title"><h1>Christmas elf</h1></div>
+        <div class="header__icons"><i class="fas fa-search"></i><i class="fas fa-bars"></i></div>
+    </header>
+
+    <main class="main-screen main-chat">
+		<div class="time-stamp">
+            <span>Saturday, Dec 25, 2021</span>
+        </div>
+        <div class="message-row">
+            <img src="images/Tree_profile.jpg">
+            <div class="message-row__content">
+                <span class="message__author">Christmas elf</span>
+                <div class="message__info">
+                    <span class="message__bubble">Merry Christmas!</span>
+                    <span class="message__time">00:01</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="keyboard">
+        <form class="reply">
+            <div class="reply__column">
+                <i class="far fa-plus-square fa-2x"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write your message here">
+                <i class="far fa-smile fa-2x"></i>
+                <button><i class="fas fa-arrow-up fa-2x"></i></button>
+            </div>
+        </form>
+
+         <div class="keyboard-qwerty">
+             <div class="keyboard-qwerty__row">
+                 <span class="keyboard-qwerty__button white">q</span>
+                 <span class="keyboard-qwerty__button white">w</span>
+                 <span class="keyboard-qwerty__button white">e</span>
+                 <span class="keyboard-qwerty__button white">r</span>
+                 <span class="keyboard-qwerty__button white">t</span>
+                 <span class="keyboard-qwerty__button white">y</span>
+                 <span class="keyboard-qwerty__button white">u</span>
+                 <span class="keyboard-qwerty__button white">i</span>
+                 <span class="keyboard-qwerty__button white">o</span>
+                 <span class="keyboard-qwerty__button white">p</span>
+             </div>
+             <div class="keyboard-qwerty__row">
+                <span class="keyboard-qwerty__button white">a</span>
+                <span class="keyboard-qwerty__button white">s</span>
+                <span class="keyboard-qwerty__button white">d</span>
+                <span class="keyboard-qwerty__button white">f</span>
+                <span class="keyboard-qwerty__button white">g</span>
+                <span class="keyboard-qwerty__button white">h</span>
+                <span class="keyboard-qwerty__button white">j</span>
+                <span class="keyboard-qwerty__button white">k</span>
+                <span class="keyboard-qwerty__button white">l</span>
+            </div>
+            <div class="keyboard-qwerty__row">
+                <span class="keyboard-qwerty__button black"><i class="fas fa-arrow-up"></i></span>
+                <span class="keyboard-qwerty__button white">z</span>
+                <span class="keyboard-qwerty__button white">x</span>
+                <span class="keyboard-qwerty__button white">c</span>
+                <span class="keyboard-qwerty__button white">v</span>
+                <span class="keyboard-qwerty__button white">b</span>
+                <span class="keyboard-qwerty__button white">n</span>
+                <span class="keyboard-qwerty__button white">m</span>
+                <span class="keyboard-qwerty__button black"><i class="fas fa-backspace"></i></span>
+            </div>
+            <div class="keyboard-qwerty__row">
+                <span class="keyboard-qwerty__button black">123</span>
+                <span class="keyboard-qwerty__button black"><i class="fas fa-globe"></i></span>
+                <span class="keyboard-qwerty__button white"><i class="fas fa-microphone"></i></span>
+                <span class="keyboard-qwerty__button white long">space</span>
+                <span class="keyboard-qwerty__button black medium">return</span>
+            </div>
+         </div>
+    </div>
+
+    <div id="no-widescreen">
+        <p>Your screen is too big. Please use mobile view. <i class="fas fa-sad-tear"></i></p>
+    </div>
+    <div id="no-landscape">
+        <p>Please rotate your phone!<i class="fas fa-sync-alt"></i></p>
+    </div>
+    
+</body>
+</html>

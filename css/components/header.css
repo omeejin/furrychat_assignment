@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 25px 10px 25px;
+}
+
+.header__title h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header__title {
+    font-size: 25px;
+}
+
+.header__icons i {
+    margin-left: 15px;
+    font-size: 25px;
+    position: relative;
+}
+
+@keyframes rotate {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(180deg);
+    }
+}
+
+.header__icons i[class~="fa-cog"]:hover {
+    animation: rotate 0.6s infinite;
+}
+
+.header__icons i:hover, .header__icons i:focus,
+.header__title i:hover, .header__title i:focus {
+    color: var(--red)
+}
+
+.header__icons i:active, .header__title i:active {
+    transform: translateY(2px);
+}

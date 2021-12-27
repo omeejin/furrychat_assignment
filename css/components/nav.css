@@ -1,0 +1,30 @@
+.menu {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid var(--black);
+}
+
+.menu__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 25px;
+}
+
+.menu__icon {
+    font-size: 28px;
+    position: relative;
+}
+
+.menu__icon i:hover, .menu__icon i:focus {
+    color: var(--red);
+}
+
+.menu__icon i:active {
+    transform: translateY(2px);
+}

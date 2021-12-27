@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find</title>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__row"><i class="fas fa-paw"></i><span>PawsOn</span><i class="fas fa-wifi"></i></div>
+        <div class="status-bar__row"><span>07:57</span></div>
+        <div class="status-bar__row"><span>76%</span><i class="fas fa-battery-three-quarters"></i></div>
+    </div>
+    <nav class="menu">
+        <ol class="menu__icons">
+            <li class="menu__icon"><a href="friends.html"><i class="fas fa-dog"></i></a></li>
+            <li class="menu__icon"><a href="chats.html"><i class="fas fa-bone"></i><div class="nav__notification badge">16</div></a></li>
+            <li class="menu__icon"><a href="find.html"><i class="fas fa-search"></i></a></li>
+            <li class="menu__icon"><a href="more.html"><i class="fas fa-ellipsis-h"></i><div class="nav__notification nav__notification--sm badge"></div></a></li>
+        </ol>
+    </nav>
+
+
+    <header>
+        <div class="header__title"><h1>Find</h1></div>
+        <div class="header__icons">
+            <i class="fas fa-search"></i>
+            <a href="settings.html"><i class="fas fa-cog"></i><div class="badge nav__notification--sm header__cog"></div></a></div>
+    </header>
+
+    <main class="main-screen">
+        <div class="find-icons">
+            <div class="find-icons__row">
+                <i class="fas fa-qrcode"></i>
+                <h4>QR code</h4>
+            </div>
+            <div class="find-icons__row">
+                <i class="fas fa-cat"></i>
+                <h4>Add by contacts</h4>
+            </div>
+            <div class="find-icons__row">
+                <i class="fas fa-paw"></i>
+                <h4>Add by paws</h4>
+            </div>
+            <div class="find-icons__row">
+                <i class="fas fa-envelope"></i>
+                <h4>Invite</h4>
+            </div>
+        </div>
+        <div class="find-section">
+            <div class="find-section__header">
+                <div class="find-section__header__row"><h4>Recommended Friends</h4></div>
+                <div class="find-section__header__row"></div>
+            </div>
+            <div class="find-section__content">
+                <span>You have no recommended furriends.</span>
+            </div>
+        </div>
+        <div class="find-section">
+            <div class="find-section__header">
+                <div class="find-section__header__row"><h4>Open Chat</h4></div>
+                <div class="find-section__header__row">Go to Openchat Home <i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="open-chat">
+                <div class="open-chat__row">
+                    <h4>#Doggos</h4>
+                    <h6>#dogs #seoul #walks</h6>
+                    <div class="open-chat__members">
+                        <img src="images/summer_profile.jpg">
+                        <span>324 members</span>
+                        <div class="bar"></div>
+                        <span class="open-chat__active">Active</span>
+                    </div>
+                </div>
+                <div class="open-chat__row">
+                    <div class="open-chat__photo">
+                        <img src="images/openchat_walk.jpg">
+                        <div class="paws-count">
+                            <i class="fas fa-paw fa-xs"></i><span>214</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="open-chat">
+                <div class="open-chat__row">
+                    <h4>Seoul cats society</h4>
+                    <h6>#cats #chats #snacks</h6>
+                    <div class="open-chat__members">
+                        <img src="images/dubu_profile.jpg">
+                        <span>542 members</span>
+                        <div class="bar"></div>
+                        <span class="open-chat__active">Active</span>
+                    </div>
+                </div>
+                <div class="open-chat__row">
+                    <div class="open-chat__photo">
+                        <img src="images/openchat_cat.jpg">
+                        <div class="paws-count">
+                            <i class="fas fa-paw fa-xs"></i><span>3724</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="no-widescreen">
+        <p>Your screen is too big. Please use mobile view. <i class="fas fa-sad-tear"></i></p>
+    </div>
+    <div id="no-landscape">
+        <p>Please rotate your phone!<i class="fas fa-sync-alt"></i></p>
+    </div>
+    
+</body>
+</html>

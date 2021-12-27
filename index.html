@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurryChat</title>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__row"><i class="fas fa-paw"></i><span>PawsOn</span><i class="fas fa-wifi"></i></div>
+        <div class="status-bar__row"><span>07:57</span></div>
+        <div class="status-bar__row"><span>76%</span><i class="fas fa-battery-three-quarters"></i></div>
+    </div>
+    <main class="main-screen">
+        <div class="welcome-message">
+            <h1>Welcome to FurryChat!</h1>
+            <p>Let's have a chat with furry friends.</p>
+            <p>If you have a FurryChat account, log in with your email or phone number.</p>
+        </div>
+        <form class="login" action="friends.html" method="get" id="login-form">
+            <input type="text" placeholder="Email or phone number">
+            <input type="password" placeholder="Pawsword">
+            <input type="submit" value="Log in">
+            <a href="#">Find a FurryChat account or pawsword</a>
+        </form>
+    </main>
+
+    <div id="no-widescreen">
+        <p>Your screen is too big. Please use mobile view. <i class="fas fa-sad-tear"></i></p>
+    </div>
+    <div id="no-landscape">
+        <p>Please rotate your phone!<i class="fas fa-sync-alt"></i></p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+#no-widescreen {
+    background-color: var(--black);
+    color: var(--yellow);
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#no-landscape {
+    background-color: var(--yellow);
+    color: var(--black);
+    position: absolute;
+    z-index: 98;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    top: 0;
+}
+
+@media screen and (max-width: 600px) {
+    #no-widescreen {
+        display: none;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #no-landscape {
+        display: none;
+    }
+}

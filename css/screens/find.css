@@ -1,0 +1,134 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.find-icons__row {
+    text-align: center;
+    font-size: 15px;
+}
+
+.find-icons__row i {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.find-icons__row:hover, .find-icons__row:focus{
+    color: var(--red);
+}
+
+.find-section__header {
+    border-top: 1px solid rgba(0,0,0,0.6);
+    font-size: 15px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.find-section__header__row:last-child {
+    opacity: 0.4;
+}
+
+.find-section__content {
+    padding: 30px 0px 60px 0px;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.open-chat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px dashed rgba(0,0,0,0.2);
+    margin-bottom:5px;
+}
+
+.open-chat__row h4 {
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 3px;
+}
+
+.open-chat__row h6 {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.open-chat__members {
+    display: flex;
+    align-items: center;
+}
+
+.open-chat__members img {
+    width: 20px;
+    height: 20px;
+    border-radius:10px;
+    margin-right: 6px;
+}
+
+.open-chat__members span {
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.bar {
+    width: 1px;
+    height: 13px;
+    background-color: var(--black);
+    opacity: 0.5;
+    margin: 0px 5px;
+}
+
+.open-chat__active {
+    color: var(--red);
+}
+
+.open-chat__photo {
+    position: relative;
+}
+
+.open-chat__photo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.paws-count {
+    background-color: var(--red);
+    color: white;
+    width: 50px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 10px;
+    right: 7px;
+}
+
+.paws-count i {
+    margin-right: 3px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: none;
+    }
+    20% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.paws-count:focus, .paws-count:hover {
+    animation: bounce 0.5s ease-in-out infinite;
+}
